@@ -1,11 +1,11 @@
 // sliceNoWrap  Text uzun bo'lib kontentni buzib yubormasligi oldini oladi va oxiriga 3 nuqtaa ... qo'yib yakunlaydi
 
 @mixin sliceNoWrap() {
-  display: inline-block;
   width: 100%;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
 }
 
 // sliceTextWebkit Title ga qanchada tugashi kerakligi aytiladi(number)kontentni buzib yubormasligi oldini oladi va oxiriga 3 nuqtaa ... qo'yib yakunlaydi

@@ -1,20 +1,6 @@
 .hero {
   width: 100%;
-  &-content{
-    background: linear-gradient(
-      180deg,
-      rgba(22, 21, 26, 0.82) 5.05%,
-      rgba(22, 21, 26, 0) 31.31%
-    ),
-    linear-gradient(0deg, #16151a 6.98%, rgba(22, 21, 26, 0) 48.02%),
-    linear-gradient(
-      89.65deg,
-      rgba(7, 6, 14, 0.88) -0.74%,
-      rgba(7, 6, 14, 0) 50.25%
-    );
-  }
-
-
+  padding-bottom: 20px;
   &__slider-item {
     img {
       max-width: 1520px;

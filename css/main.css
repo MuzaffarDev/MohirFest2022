@@ -407,13 +407,13 @@ body {
 
 .wrapper {
   margin-top: auto;
-  padding-top: 0;
+  padding-top: 90px;
 }
 
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1560px;
+  max-width: 1530px;
 }
 
 .logo {
@@ -423,9 +423,7 @@ body {
 
 .hero {
   width: 100%;
-}
-.hero-content {
-  background: linear-gradient(180deg, rgba(22, 21, 26, 0.82) 5.05%, rgba(22, 21, 26, 0) 31.31%), linear-gradient(0deg, #16151a 6.98%, rgba(22, 21, 26, 0) 48.02%), linear-gradient(89.65deg, rgba(7, 6, 14, 0.88) -0.74%, rgba(7, 6, 14, 0) 50.25%);
+  padding-bottom: 20px;
 }
 .hero__slider-item {
   max-width: 1520px;
@@ -438,6 +436,96 @@ body {
      object-fit: fill;
 }
 
+.film {
+  margin-bottom: 40px;
+}
+.film-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.film__title {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.film-btn {
+  cursor: pointer;
+  text-align: center;
+  padding: 12px 25px;
+  border-radius: 10px;
+  white-space: nowrap;
+  background-color: rgb(34, 33, 38);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.film-list {
+  display: flex;
+  margin: 20px 0;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.film-item {
+  width: 228px;
+  height: 380px;
+}
+.film-link {
+  cursor: pointer;
+}
+.film-img {
+  width: 228px;
+  height: 327px;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  transform: scale(1);
+  transition: ease-in-out 0.5s;
+}
+.film-img:hover {
+  transform: scale(1.05);
+}
+.film-name {
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.film-desc {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #52b038;
+  margin-bottom: 0px;
+}
+
 .header {
   padding: 20px 0;
   top: 0;
@@ -447,7 +535,7 @@ body {
   position: fixed;
   z-index: 100;
   color: rgb(255, 255, 255);
-  background-color: transparent;
+  background-color: rgb(31, 29, 36);
 }
 .header__content {
   display: flex;
