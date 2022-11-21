@@ -9,7 +9,7 @@ $(".hero__slider-list").slick({
 $(".film-list").slick({
   infinite: true,
   slidesToShow: 6,
-  slidesToScroll:6,
+  slidesToScroll: 6,
 });
 
 let itemBtn = document.querySelectorAll(".header__menu-link");
