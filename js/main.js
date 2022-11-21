@@ -7,10 +7,9 @@ $(".hero__slider-list").slick({
 });
 
 $(".film-list").slick({
+  infinite: true,
   slidesToShow: 6,
-  slidesToScroll: 2,
-  autoplay: false,
-  autoplaySpeed: 1500,
+  slidesToScroll:6,
 });
 
 let itemBtn = document.querySelectorAll(".header__menu-link");
