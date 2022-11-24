@@ -4,8 +4,8 @@
   &-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 25px;
+    justify-content: space-between;
   }
   &__title {
     @include sliceNoWrap();
@@ -20,6 +20,9 @@
     white-space: nowrap;
     background-color: rgb(34, 33, 38);
     @include font(600, 17px, 30px, #ffffff);
+  }
+  &-bottom-btn{
+    width: 100%;
   }
 
   &-list {

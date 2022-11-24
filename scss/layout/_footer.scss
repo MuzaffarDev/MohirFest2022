@@ -64,7 +64,6 @@
     }
 
     &-item {
-      gap: 4px;
       display: flex;
       cursor: pointer;
       overflow: hidden;
@@ -84,18 +83,7 @@
     }
 
     &-link {
-      height: 32px;
       display: block;
-      max-width: 32px;
-    }
-
-    &-link-text {
-      .desc {
-        @include font(400, 10px, 15px, #ffff);
-      }
-      .subt {
-        @include font(400, 14px, 15px, #ffff);
-      }
     }
   }
 
